@@ -28,19 +28,5 @@ public class Driver {
 			}
 			System.out.println(x);
 		}
-		
-		
-		
-<<<<<<< HEAD
-		ClarifaiClient clarifai = new ClarifaiClient(APP_ID, APP_SECRET);
-		List<RecognitionResult> results =
-    		clarifai.recognize(new RecognitionRequest(new File("kittens.jpg")));
-
-		for (Tag tag : results.get(0).getTags()) {
-  		System.out.println(tag.getName() + ": " + tag.getProbability());
-		}
-		
-=======
->>>>>>> e87ad374c5c4eaadc6e9dba70675a29c833c64ff
 	}
 }
